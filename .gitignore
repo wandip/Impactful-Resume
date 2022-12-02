@@ -1,0 +1,7 @@
+./models/CPGN_length.pt
+./models/CPGN__inpattern_length_v1.pt
+./models/CPGN_length_v2.pt
+./models/CPGN_length_v3.pt
+./models/length_v3.pt
+./data/parsed_data.h5
+./data/index_scores.pkl
