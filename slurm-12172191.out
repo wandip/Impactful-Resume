@@ -1,0 +1,35 @@
+==========================================
+SLURM_JOB_ID = 12172191
+SLURM_JOB_NODELIST = a02-06
+TMPDIR = /tmp/SLURM_12172191
+==========================================
+train_minibatches: 27186	 dev_minibatches: 200	test_minibatches: 100
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:59: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_parse_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:60: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:66: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_hid_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:67: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_att_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:68: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_inp_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:81: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  result = torch.nn.functional.softmax(vector)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:232: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  decoder_preds = self.out_nonlin(decoder_preds)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:686: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(params, args.grad_clip)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:302: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  preds = self.out_nonlin(preds).squeeze()
+done with batch 0 / 27186 in epoch 0, loss: 12.934097, time:6
+
+
+Traceback (most recent call last):
+  File "/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py", line 685, in <module>
+    loss.backward()
+  File "/home1/dpwani/.conda/envs/vqa-2/lib/python3.10/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home1/dpwani/.conda/envs/vqa-2/lib/python3.10/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA out of memory. Tried to allocate 4.78 GiB (GPU 0; 44.37 GiB total capacity; 36.71 GiB already allocated; 438.50 MiB free; 42.69 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

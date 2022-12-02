@@ -1,0 +1,37 @@
+==========================================
+SLURM_JOB_ID = 12118657
+SLURM_JOB_NODELIST = e22-02
+TMPDIR = /tmp/SLURM_12118657
+==========================================
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:59: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_parse_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:60: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:66: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_hid_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:67: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_att_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:68: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_inp_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:81: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  result = torch.nn.functional.softmax(vector)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:232: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  decoder_preds = self.out_nonlin(decoder_preds)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:686: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(params, args.grad_clip)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:302: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  preds = self.out_nonlin(preds).squeeze()
+train_minibatches: 399700	 dev_minibatches: 200	test_minibatches: 100
+done with batch 0 / 399700 in epoch 0, loss: 12.475732, time:5
+
+
+Traceback (most recent call last):
+  File "/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py", line 726, in <module>
+    torch.save({'state_dict':net.state_dict(), 
+  File "/home1/dpwani/.conda/envs/vqa-2/lib/python3.10/site-packages/torch/serialization.py", line 377, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "/home1/dpwani/.conda/envs/vqa-2/lib/python3.10/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home1/dpwani/.conda/envs/vqa-2/lib/python3.10/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'models/CPGN_length.pt'

@@ -1,0 +1,24 @@
+==========================================
+SLURM_JOB_ID = 12118689
+SLURM_JOB_NODELIST = e22-02
+TMPDIR = /tmp/SLURM_12118689
+==========================================
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:59: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_parse_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:60: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:66: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_hid_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:67: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_att_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:68: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_inp_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:81: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  result = torch.nn.functional.softmax(vector)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:232: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  decoder_preds = self.out_nonlin(decoder_preds)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:686: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(params, args.grad_clip)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:302: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  preds = self.out_nonlin(preds).squeeze()
+slurmstepd: error: *** JOB 12118689 ON e22-02 CANCELLED AT 2022-11-03T13:51:03 DUE TO TIME LIMIT ***

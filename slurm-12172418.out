@@ -1,0 +1,544 @@
+==========================================
+SLURM_JOB_ID = 12172418
+SLURM_JOB_NODELIST = a02-06
+TMPDIR = /tmp/SLURM_12172418
+==========================================
+train_minibatches: 54673	 dev_minibatches: 200	test_minibatches: 100
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:59: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_parse_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:60: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:66: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_hid_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:67: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_att_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:68: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_inp_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:81: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  result = torch.nn.functional.softmax(vector)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:232: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  decoder_preds = self.out_nonlin(decoder_preds)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:686: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(params, args.grad_clip)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:302: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  preds = self.out_nonlin(preds).squeeze()
+done with batch 0 / 54673 in epoch 0, loss: 13.528298, time:2
+
+
+done with batch 1000 / 54673 in epoch 0, loss: 5.992055, time:718
+
+
+done with batch 2000 / 54673 in epoch 0, loss: 4.927272, time:752
+
+
+done with batch 3000 / 54673 in epoch 0, loss: 4.471867, time:726
+
+
+done with batch 4000 / 54673 in epoch 0, loss: 4.283975, time:743
+
+
+done with batch 5000 / 54673 in epoch 0, loss: 4.072889, time:725
+
+
+done with batch 6000 / 54673 in epoch 0, loss: 3.868420, time:683
+
+
+done with batch 7000 / 54673 in epoch 0, loss: 3.658097, time:725
+
+
+done with batch 8000 / 54673 in epoch 0, loss: 3.494537, time:712
+
+
+done with batch 9000 / 54673 in epoch 0, loss: 3.390488, time:739
+
+
+done with batch 10000 / 54673 in epoch 0, loss: 3.197591, time:716
+
+
+done with batch 11000 / 54673 in epoch 0, loss: 3.075627, time:722
+
+
+done with batch 12000 / 54673 in epoch 0, loss: 3.028828, time:739
+
+
+done with batch 13000 / 54673 in epoch 0, loss: 2.914148, time:729
+
+
+done with batch 15000 / 54673 in epoch 0, loss: 2.793522, time:1436
+
+
+done with batch 16000 / 54673 in epoch 0, loss: 2.724823, time:718
+
+
+done with batch 17000 / 54673 in epoch 0, loss: 2.728560, time:716
+
+
+done with batch 18000 / 54673 in epoch 0, loss: 2.709954, time:765
+
+
+done with batch 19000 / 54673 in epoch 0, loss: 2.605208, time:731
+
+
+done with batch 20000 / 54673 in epoch 0, loss: 2.571617, time:705
+
+
+done with batch 21000 / 54673 in epoch 0, loss: 2.554014, time:727
+
+
+done with batch 22000 / 54673 in epoch 0, loss: 2.527474, time:733
+
+
+done with batch 23000 / 54673 in epoch 0, loss: 2.497062, time:725
+
+
+done with batch 24000 / 54673 in epoch 0, loss: 2.484835, time:713
+
+
+done with batch 25000 / 54673 in epoch 0, loss: 2.480689, time:708
+
+
+done with batch 26000 / 54673 in epoch 0, loss: 2.458117, time:733
+
+
+done with batch 28000 / 54673 in epoch 0, loss: 2.401159, time:1462
+
+
+done with batch 29000 / 54673 in epoch 0, loss: 2.420113, time:721
+
+
+done with batch 30000 / 54673 in epoch 0, loss: 2.361639, time:722
+
+
+done with batch 31000 / 54673 in epoch 0, loss: 2.364749, time:742
+
+
+done with batch 32000 / 54673 in epoch 0, loss: 2.364117, time:715
+
+
+done with batch 33000 / 54673 in epoch 0, loss: 2.333249, time:719
+
+
+done with batch 34000 / 54673 in epoch 0, loss: 2.311385, time:720
+
+
+done with batch 35000 / 54673 in epoch 0, loss: 2.293277, time:718
+
+
+done with batch 36000 / 54673 in epoch 0, loss: 2.284909, time:722
+
+
+done with batch 37000 / 54673 in epoch 0, loss: 2.298489, time:729
+
+
+done with batch 38000 / 54673 in epoch 0, loss: 2.272439, time:703
+
+
+done with batch 39000 / 54673 in epoch 0, loss: 2.251058, time:728
+
+
+done with batch 40000 / 54673 in epoch 0, loss: 2.253683, time:730
+
+
+done with batch 41000 / 54673 in epoch 0, loss: 2.263283, time:697
+
+
+done with batch 42000 / 54673 in epoch 0, loss: 2.240344, time:704
+
+
+done with batch 43000 / 54673 in epoch 0, loss: 2.224524, time:708
+
+
+done with batch 44000 / 54673 in epoch 0, loss: 2.238471, time:712
+
+
+done with batch 45000 / 54673 in epoch 0, loss: 2.196800, time:706
+
+
+done with batch 46000 / 54673 in epoch 0, loss: 2.206137, time:714
+
+
+done with batch 47000 / 54673 in epoch 0, loss: 2.207921, time:733
+
+
+done with batch 48000 / 54673 in epoch 0, loss: 2.202794, time:725
+
+
+done with batch 49000 / 54673 in epoch 0, loss: 2.157251, time:718
+
+
+done with batch 51000 / 54673 in epoch 0, loss: 2.177819, time:1478
+
+
+done with batch 53000 / 54673 in epoch 0, loss: 2.176079, time:1456
+
+
+done with batch 54000 / 54673 in epoch 0, loss: 2.160810, time:721
+
+
+new LR: 2.5e-05
+done with batch 0 / 54673 in epoch 1, loss: 1.847141, time:0
+
+
+done with batch 1000 / 54673 in epoch 1, loss: 2.122298, time:705
+
+
+done with batch 2000 / 54673 in epoch 1, loss: 2.116502, time:734
+
+
+done with batch 3000 / 54673 in epoch 1, loss: 2.114452, time:723
+
+
+done with batch 4000 / 54673 in epoch 1, loss: 2.091710, time:742
+
+
+done with batch 5000 / 54673 in epoch 1, loss: 2.128941, time:706
+
+
+done with batch 6000 / 54673 in epoch 1, loss: 2.101690, time:726
+
+
+done with batch 7000 / 54673 in epoch 1, loss: 2.090523, time:737
+
+
+done with batch 8000 / 54673 in epoch 1, loss: 2.082116, time:708
+
+
+done with batch 9000 / 54673 in epoch 1, loss: 2.110929, time:726
+
+
+done with batch 10000 / 54673 in epoch 1, loss: 2.074315, time:712
+
+
+done with batch 12000 / 54673 in epoch 1, loss: 2.093602, time:1451
+
+
+done with batch 13000 / 54673 in epoch 1, loss: 2.102594, time:743
+
+
+done with batch 14000 / 54673 in epoch 1, loss: 2.108698, time:735
+
+
+done with batch 15000 / 54673 in epoch 1, loss: 2.066646, time:710
+
+
+done with batch 16000 / 54673 in epoch 1, loss: 2.084711, time:709
+
+
+done with batch 17000 / 54673 in epoch 1, loss: 2.077126, time:729
+
+
+done with batch 18000 / 54673 in epoch 1, loss: 2.070807, time:743
+
+
+done with batch 19000 / 54673 in epoch 1, loss: 2.089668, time:726
+
+
+done with batch 20000 / 54673 in epoch 1, loss: 2.092633, time:730
+
+
+done with batch 21000 / 54673 in epoch 1, loss: 2.030785, time:691
+
+
+done with batch 22000 / 54673 in epoch 1, loss: 2.082984, time:727
+
+
+done with batch 23000 / 54673 in epoch 1, loss: 2.062577, time:715
+
+
+done with batch 25000 / 54673 in epoch 1, loss: 2.047585, time:1430
+
+
+done with batch 26000 / 54673 in epoch 1, loss: 2.057548, time:729
+
+
+done with batch 27000 / 54673 in epoch 1, loss: 2.068088, time:730
+
+
+done with batch 28000 / 54673 in epoch 1, loss: 2.032482, time:729
+
+
+done with batch 29000 / 54673 in epoch 1, loss: 2.075927, time:725
+
+
+done with batch 30000 / 54673 in epoch 1, loss: 2.018971, time:703
+
+
+done with batch 31000 / 54673 in epoch 1, loss: 2.012395, time:725
+
+
+done with batch 32000 / 54673 in epoch 1, loss: 2.049959, time:719
+
+
+done with batch 33000 / 54673 in epoch 1, loss: 2.024430, time:702
+
+
+done with batch 34000 / 54673 in epoch 1, loss: 2.048013, time:727
+
+
+done with batch 35000 / 54673 in epoch 1, loss: 2.040063, time:714
+
+
+done with batch 36000 / 54673 in epoch 1, loss: 2.046370, time:701
+
+
+done with batch 37000 / 54673 in epoch 1, loss: 2.013210, time:739
+
+
+done with batch 38000 / 54673 in epoch 1, loss: 2.008076, time:732
+
+
+done with batch 39000 / 54673 in epoch 1, loss: 2.017301, time:716
+
+
+done with batch 40000 / 54673 in epoch 1, loss: 2.033157, time:736
+
+
+done with batch 41000 / 54673 in epoch 1, loss: 2.043796, time:726
+
+
+done with batch 42000 / 54673 in epoch 1, loss: 2.018888, time:711
+
+
+done with batch 43000 / 54673 in epoch 1, loss: 2.004673, time:722
+
+
+done with batch 44000 / 54673 in epoch 1, loss: 2.033600, time:745
+
+
+done with batch 45000 / 54673 in epoch 1, loss: 2.033878, time:736
+
+
+done with batch 46000 / 54673 in epoch 1, loss: 2.019002, time:714
+
+
+done with batch 47000 / 54673 in epoch 1, loss: 2.017302, time:736
+
+
+done with batch 48000 / 54673 in epoch 1, loss: 1.991675, time:710
+
+
+done with batch 49000 / 54673 in epoch 1, loss: 1.983215, time:719
+
+
+done with batch 50000 / 54673 in epoch 1, loss: 2.007740, time:734
+
+
+done with batch 51000 / 54673 in epoch 1, loss: 2.001784, time:722
+
+
+done with batch 52000 / 54673 in epoch 1, loss: 2.009773, time:741
+
+
+done with batch 53000 / 54673 in epoch 1, loss: 1.983705, time:720
+
+
+done with batch 54000 / 54673 in epoch 1, loss: 2.009043, time:741
+
+
+new LR: 1.25e-05
+done with batch 0 / 54673 in epoch 2, loss: 1.553663, time:1
+
+
+done with batch 1000 / 54673 in epoch 2, loss: 1.981288, time:751
+
+
+done with batch 2000 / 54673 in epoch 2, loss: 1.972917, time:729
+
+
+done with batch 3000 / 54673 in epoch 2, loss: 1.980342, time:733
+
+
+done with batch 4000 / 54673 in epoch 2, loss: 1.984697, time:726
+
+
+done with batch 5000 / 54673 in epoch 2, loss: 1.993696, time:716
+
+
+done with batch 6000 / 54673 in epoch 2, loss: 1.955058, time:733
+
+
+done with batch 7000 / 54673 in epoch 2, loss: 1.972753, time:719
+
+
+done with batch 8000 / 54673 in epoch 2, loss: 1.978726, time:723
+
+
+done with batch 9000 / 54673 in epoch 2, loss: 1.984496, time:726
+
+
+done with batch 10000 / 54673 in epoch 2, loss: 1.972202, time:728
+
+
+done with batch 11000 / 54673 in epoch 2, loss: 1.989074, time:715
+
+
+done with batch 12000 / 54673 in epoch 2, loss: 1.973770, time:715
+
+
+done with batch 13000 / 54673 in epoch 2, loss: 1.981318, time:738
+
+
+done with batch 14000 / 54673 in epoch 2, loss: 1.975370, time:730
+
+
+done with batch 15000 / 54673 in epoch 2, loss: 2.005902, time:724
+
+
+done with batch 16000 / 54673 in epoch 2, loss: 1.971506, time:739
+
+
+done with batch 17000 / 54673 in epoch 2, loss: 1.974487, time:736
+
+
+done with batch 18000 / 54673 in epoch 2, loss: 1.968982, time:705
+
+
+done with batch 19000 / 54673 in epoch 2, loss: 1.955487, time:699
+
+
+done with batch 20000 / 54673 in epoch 2, loss: 1.964575, time:707
+
+
+done with batch 21000 / 54673 in epoch 2, loss: 1.983427, time:741
+
+
+done with batch 22000 / 54673 in epoch 2, loss: 1.949017, time:727
+
+
+done with batch 23000 / 54673 in epoch 2, loss: 1.947679, time:723
+
+
+done with batch 24000 / 54673 in epoch 2, loss: 1.976676, time:741
+
+
+done with batch 25000 / 54673 in epoch 2, loss: 1.959733, time:745
+
+
+done with batch 26000 / 54673 in epoch 2, loss: 1.947221, time:729
+
+
+done with batch 27000 / 54673 in epoch 2, loss: 1.957495, time:730
+
+
+done with batch 28000 / 54673 in epoch 2, loss: 1.975180, time:729
+
+
+done with batch 29000 / 54673 in epoch 2, loss: 1.946138, time:735
+
+
+done with batch 30000 / 54673 in epoch 2, loss: 1.942999, time:710
+
+
+done with batch 31000 / 54673 in epoch 2, loss: 1.969327, time:722
+
+
+done with batch 33000 / 54673 in epoch 2, loss: 1.962243, time:1437
+
+
+done with batch 34000 / 54673 in epoch 2, loss: 1.968672, time:724
+
+
+done with batch 35000 / 54673 in epoch 2, loss: 1.964162, time:731
+
+
+done with batch 36000 / 54673 in epoch 2, loss: 1.966016, time:729
+
+
+done with batch 37000 / 54673 in epoch 2, loss: 1.944438, time:717
+
+
+done with batch 38000 / 54673 in epoch 2, loss: 1.953633, time:736
+
+
+done with batch 39000 / 54673 in epoch 2, loss: 1.943957, time:712
+
+
+done with batch 40000 / 54673 in epoch 2, loss: 1.978424, time:731
+
+
+done with batch 42000 / 54673 in epoch 2, loss: 1.937758, time:1458
+
+
+done with batch 43000 / 54673 in epoch 2, loss: 1.945453, time:734
+
+
+done with batch 44000 / 54673 in epoch 2, loss: 1.944152, time:725
+
+
+done with batch 45000 / 54673 in epoch 2, loss: 1.944865, time:739
+
+
+done with batch 46000 / 54673 in epoch 2, loss: 1.944951, time:730
+
+
+done with batch 47000 / 54673 in epoch 2, loss: 1.959685, time:730
+
+
+done with batch 48000 / 54673 in epoch 2, loss: 1.919179, time:724
+
+
+done with batch 49000 / 54673 in epoch 2, loss: 1.976887, time:743
+
+
+done with batch 50000 / 54673 in epoch 2, loss: 1.933012, time:709
+
+
+done with batch 51000 / 54673 in epoch 2, loss: 1.940940, time:757
+
+
+done with batch 52000 / 54673 in epoch 2, loss: 1.939920, time:750
+
+
+done with batch 53000 / 54673 in epoch 2, loss: 1.959257, time:742
+
+
+done with batch 54000 / 54673 in epoch 2, loss: 1.956915, time:743
+
+
+new LR: 6.25e-06
+done with batch 0 / 54673 in epoch 3, loss: 2.580554, time:1
+
+
+done with batch 1000 / 54673 in epoch 3, loss: 1.941062, time:727
+
+
+done with batch 2000 / 54673 in epoch 3, loss: 1.926405, time:717
+
+
+done with batch 3000 / 54673 in epoch 3, loss: 1.921196, time:735
+
+
+done with batch 4000 / 54673 in epoch 3, loss: 1.904573, time:741
+
+
+done with batch 5000 / 54673 in epoch 3, loss: 1.949064, time:757
+
+
+done with batch 7000 / 54673 in epoch 3, loss: 1.938895, time:1463
+
+
+done with batch 8000 / 54673 in epoch 3, loss: 1.943888, time:736
+
+
+done with batch 9000 / 54673 in epoch 3, loss: 1.945606, time:747
+
+
+done with batch 10000 / 54673 in epoch 3, loss: 1.939420, time:727
+
+
+done with batch 11000 / 54673 in epoch 3, loss: 1.898573, time:727
+
+
+done with batch 12000 / 54673 in epoch 3, loss: 1.935518, time:750
+
+
+done with batch 13000 / 54673 in epoch 3, loss: 1.928057, time:725
+
+
+done with batch 14000 / 54673 in epoch 3, loss: 1.935265, time:739
+
+
+done with batch 15000 / 54673 in epoch 3, loss: 1.957224, time:721
+
+
+slurmstepd: error: *** JOB 12172418 ON a02-06 CANCELLED AT 2022-11-09T09:46:42 ***

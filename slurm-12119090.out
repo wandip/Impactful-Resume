@@ -1,0 +1,136 @@
+==========================================
+SLURM_JOB_ID = 12119090
+SLURM_JOB_NODELIST = e22-02
+TMPDIR = /tmp/SLURM_12119090
+==========================================
+train_minibatches: 399700	 dev_minibatches: 200	test_minibatches: 100
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:59: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_parse_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:60: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.att_W.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:66: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_hid_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:67: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_att_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:68: UserWarning: nn.init.xavier_uniform is now deprecated in favor of nn.init.xavier_uniform_.
+  nn.init.xavier_uniform(self.copy_inp_v.data)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:81: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  result = torch.nn.functional.softmax(vector)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:232: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  decoder_preds = self.out_nonlin(decoder_preds)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:686: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(params, args.grad_clip)
+/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py:302: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+  preds = self.out_nonlin(preds).squeeze()
+done with batch 0 / 399700 in epoch 0, loss: 12.475732, time:1
+
+
+done with batch 500 / 399700 in epoch 0, loss: 6.606477, time:99
+
+
+done with batch 1000 / 399700 in epoch 0, loss: 5.565074, time:90
+
+
+done with batch 1500 / 399700 in epoch 0, loss: 5.186254, time:90
+
+
+done with batch 2000 / 399700 in epoch 0, loss: 5.003988, time:99
+
+
+done with batch 2500 / 399700 in epoch 0, loss: 4.828331, time:97
+
+
+done with batch 3000 / 399700 in epoch 0, loss: 4.746943, time:102
+
+
+done with batch 3500 / 399700 in epoch 0, loss: 4.581807, time:99
+
+
+done with batch 4000 / 399700 in epoch 0, loss: 4.516186, time:98
+
+
+done with batch 4500 / 399700 in epoch 0, loss: 4.402522, time:96
+
+
+done with batch 5000 / 399700 in epoch 0, loss: 4.358687, time:100
+
+
+done with batch 5500 / 399700 in epoch 0, loss: 4.270171, time:96
+
+
+done with batch 6000 / 399700 in epoch 0, loss: 4.295407, time:96
+
+
+done with batch 6500 / 399700 in epoch 0, loss: 4.246136, time:96
+
+
+done with batch 7000 / 399700 in epoch 0, loss: 4.175029, time:93
+
+
+done with batch 7500 / 399700 in epoch 0, loss: 4.157552, time:102
+
+
+done with batch 8000 / 399700 in epoch 0, loss: 4.114208, time:96
+
+
+done with batch 8500 / 399700 in epoch 0, loss: 4.009257, time:94
+
+
+done with batch 9000 / 399700 in epoch 0, loss: 4.023879, time:93
+
+
+done with batch 9500 / 399700 in epoch 0, loss: 4.000537, time:94
+
+
+done with batch 10000 / 399700 in epoch 0, loss: 3.933054, time:92
+
+
+done with batch 10500 / 399700 in epoch 0, loss: 3.889687, time:94
+
+
+done with batch 11000 / 399700 in epoch 0, loss: 3.965252, time:95
+
+
+done with batch 11500 / 399700 in epoch 0, loss: 3.887827, time:94
+
+
+done with batch 12000 / 399700 in epoch 0, loss: 3.883803, time:95
+
+
+done with batch 12500 / 399700 in epoch 0, loss: 3.831286, time:103
+
+
+done with batch 13000 / 399700 in epoch 0, loss: 3.778192, time:95
+
+
+done with batch 13500 / 399700 in epoch 0, loss: 3.692928, time:95
+
+
+done with batch 14000 / 399700 in epoch 0, loss: 3.752191, time:104
+
+
+done with batch 14500 / 399700 in epoch 0, loss: 3.742518, time:94
+
+
+done with batch 15000 / 399700 in epoch 0, loss: 3.706078, time:93
+
+
+done with batch 15500 / 399700 in epoch 0, loss: 3.567521, time:97
+
+
+done with batch 16000 / 399700 in epoch 0, loss: 3.636921, time:100
+
+
+done with batch 16500 / 399700 in epoch 0, loss: 3.514929, time:90
+
+
+done with batch 17000 / 399700 in epoch 0, loss: 3.481500, time:89
+
+
+done with batch 17500 / 399700 in epoch 0, loss: 3.494196, time:95
+
+
+done with batch 18000 / 399700 in epoch 0, loss: 3.417928, time:95
+
+
+slurmstepd: error: *** JOB 12119090 ON e22-02 CANCELLED AT 2022-11-03T14:51:19 DUE TO TIME LIMIT ***

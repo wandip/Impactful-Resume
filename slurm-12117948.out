@@ -1,0 +1,14 @@
+==========================================
+SLURM_JOB_ID = 12117948
+SLURM_JOB_NODELIST = d14-07
+TMPDIR = /tmp/SLURM_12117948
+==========================================
+train_minibatches: 399700	 dev_minibatches: 200	test_minibatches: 100
+Traceback (most recent call last):
+  File "/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py", line 577, in <module>
+    net = CPGN(d_word, d_hid, d_nt, d_trans,
+  File "/home1/dpwani/csci544/controllable-paraphrase-generation/train_cpgn_length.py", line 43, in __init__
+    self.trans_hid_init = Variable(torch.zeros(1, 1, d_trans).cuda())
+  File "/home1/dpwani/.conda/envs/544project/lib/python3.10/site-packages/torch/cuda/__init__.py", line 221, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled
